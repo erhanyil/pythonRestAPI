@@ -7,8 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 db = SQLAlchemy(app)
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/db_name'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://stdiosoft:XYkm50O5@94.73.151.138/stdiosoft'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@localhost/db_name'
 
 db.create_all()
 # endregion
